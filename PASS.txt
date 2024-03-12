@@ -1,0 +1,28 @@
+gIWti0VRIkasTYPx
+
+mongodb+srv://amitpun005:gIWti0VRIkasTYPx@amit05.tzboqyb.mongodb.net/
+
+
+
+spring.data.mongodb.database=movie-api-db
+spring.data.mongodb.uri=mongodb+srv://amitpun005:gIWti0VRIkasTYPx@amit05.tzboqyb.mongodb.net
+
+cluster01--->mongodb+srv://amitpun005:<password>@cluster01.iko7etw.mongodb.net/
+
+
+username-Amitpun05
+password-NfOnhS8Q48xoje0T
+
+connection string
+mongodb+srv://<username>:<password>@cluster0.cwjilig.mongodb.net/
+
+
+
+
+user-name= amitpun005
+PASSWORD= 6wBdiWdwQ18qPvHW
+
+
+mongodb+srv://amitpun005:<password>@cluster0.sca3vnn.mongodb.net/
+
+pasword= 6wBdiWdwQ18qPvHW
