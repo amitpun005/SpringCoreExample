@@ -1,0 +1,37 @@
+What is design pattern
+-> it is well described solution to a common sw problem 
+
+what are different types of design pattern
+
+creational design pattern:
+Creational design patterns are a subset of design patterns
+They deal with the process of object creation, trying to make it more flexible and efficient.
+
+ex:
+a)Factory design pattern
+b)Singleton Design pattern
+Singleton Method is a creational design pattern, it provide a class has only one instance, 
+and that instance provides a global point of access to it.
+
+example of singleton class:
+a)Service Locator
+b)Action Servlet
+c)Runtime class
+
+Structural design pattern:
+
+Structural design patterns are a subset of design patterns in software development that 
+focus on the composition of classes or objects to form larger, more complex structures. 
+ ex
+a) composite
+b)adpator
+c)bridge
+
+behavioural design pattern:
+
+Behavioral design patterns are a subsetof design patterns in software development that deals
+with the communication and interaction between objects and classes. 
+
+ex)
+a) command
+b) Iterator

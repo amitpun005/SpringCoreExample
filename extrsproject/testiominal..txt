@@ -1,0 +1,28 @@
+package SaloonBE.example.SaloonBE.DTO;
+
+public class TestimonialRequest {
+
+    private String client_name;
+    private String testimonial_text;
+
+    public TestimonialRequest(String client_name, String testimonial_text) {
+        this.client_name = client_name;
+        this.testimonial_text = testimonial_text;
+    }
+
+    public String getClient_name() {
+        return client_name;
+    }
+
+    public void setClient_name(String client_name) {
+        this.client_name = client_name;
+    }
+
+    public String getTestimonial_text() {
+        return testimonial_text;
+    }
+
+    public void setTestimonial_text(String testimonial_text) {
+        this.testimonial_text = testimonial_text;
+    }
+}

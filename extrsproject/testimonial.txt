@@ -1,0 +1,86 @@
+package SaloonBE.example.SaloonBE.Model;
+
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
+
+
+
+import java.time.LocalDate;
+
+@Entity
+@Table(name = "testimonial")
+public class Testimonial {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
+    @NotBlank
+    @Column(name = "client_name")
+    private String client_name;
+
+    @NotBlank
+    @Column(name = "testimonial_text")
+    private String testimonial_text;
+
+
+    @NotNull
+    @Past
+    @Column(name = "date_posted")
+    private LocalDate date_Posted;
+
+    @Column(name = "last_updated_date")
+    private LocalDate last_updated_date;
+
+    public Testimonial() {
+
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getClient_name() {
+        return client_name;
+    }
+
+    public void setClient_name(String client_name) {
+        this.client_name = client_name;
+    }
+
+    public String getTestimonial_text() {
+        return testimonial_text;
+    }
+
+    public void setTestimonial_text(String testimonial_text) {
+        this.testimonial_text = testimonial_text;
+    }
+
+    public LocalDate getDate_Posted() {
+        return date_Posted;
+    }
+
+    public void setDate_Posted(LocalDate date_Posted) {
+        this.date_Posted = date_Posted;
+    }
+
+    public LocalDate getLast_updated_date() {
+        return last_updated_date;
+    }
+
+    public void setLast_updated_date(LocalDate last_updated_date) {
+        this.last_updated_date = last_updated_date;
+    }
+
+    public Testimonial(int id, String client_name, String testimonial_text, LocalDate date_Posted, LocalDate last_updated_date) {
+        this.id = id;
+        this.client_name = client_name;
+        this.testimonial_text = testimonial_text;
+        this.date_Posted = date_Posted;
+        this.last_updated_date = last_updated_date;
+    }
+}
